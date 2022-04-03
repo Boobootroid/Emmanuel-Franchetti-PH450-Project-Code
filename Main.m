@@ -32,7 +32,7 @@ for var =1:length(variances)
     
     %%% EXPORT IMAGE IN TIF FORMAT
     nameNum=variances(var);
-    name=strcat('IMG',num2str(nameNum),'_',num2str(SpotParam.avgSpotPhotonNumber),'_r10.tif'); location = 'imgDump';
+    name=strcat('IMG',num2str(nameNum),'_',num2str(SpotParam.avgSpotPhotonNumber),'_r10.tif'); location = 'ImageFolder';
     %name=strcat('TEST',num2str(nameNum),'_',num2str(SpotParam.avgSpotPhotonNumber),'.tif'); location = 'imgDump';
     f = fullfile(location,name);
     delete(f); % deletes file from previous run
