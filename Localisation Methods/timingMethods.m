@@ -1,5 +1,6 @@
 clear all; close all;  
 warning off
+%% Times weighted centroiding and least squares
 
 % Set Parameters for Least Squares fit. Worse parameters will increase
 % computation time
